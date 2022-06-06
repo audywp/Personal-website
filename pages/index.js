@@ -17,7 +17,14 @@ export default function Home() {
     getCurrentWidth();
   }, [getCurrentWidth]);
 
-  const Text = ({ children, size = '3vw', fontWeight = 400, display = 'block', code = false, className }) => {
+  const Text = ({
+    children,
+    size = isMobile ? '16px' : '3vw',
+    fontWeight = 400,
+    display = 'block',
+    code = false,
+    className,
+  }) => {
     return (
       <AntdText className={className} code={code} style={{ color: COLOR.text, fontSize: size, display, fontWeight }}>
         {children}
