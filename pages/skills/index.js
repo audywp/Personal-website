@@ -55,7 +55,14 @@ export default function Skills() {
                 onMouseEnter={() => handleHoverTrue(index)}
                 onMouseLeave={() => handleHoverFalse(index)}
                 className={styles.cardBlur}
-                style={{ background: COLOR.darkCyanOpacity('A3'), marginLeft: 40, marginRight: 40, marginBottom: 20 }}
+                style={{
+                  height: isMobile ? 100 : 136,
+                  width: isMobile ? 100 : 136,
+                  background: COLOR.darkCyanOpacity('A3'),
+                  marginLeft: isMobile ? 20 : 40,
+                  marginRight: isMobile ? 20 : 40,
+                  marginBottom: 20,
+                }}
               >
                 {value.isHover ? null : (
                   <Image width={120} height={120} objectFit='contain' alt={value.title} src={value.src} />
