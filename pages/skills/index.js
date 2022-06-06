@@ -52,8 +52,8 @@ export default function Skills() {
             return (
               <Card
                 key={value.idx}
-                onMouseEnter={() => handleHoverTrue(index)}
-                onMouseLeave={() => handleHoverFalse(index)}
+                onMouseEnter={isMobile ? () => {} : () => handleHoverTrue(index)}
+                onMouseLeave={isMobile ? () => {} : () => handleHoverFalse(index)}
                 className={styles.cardBlur}
                 style={{
                   height: isMobile ? 100 : 136,
