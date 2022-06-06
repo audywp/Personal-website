@@ -47,7 +47,7 @@ export default function Skills() {
           </Typography>
         </FlexBox>
 
-        <FlexBox flexDir='row' flexWrap='wrap' justify='center' alignItems='center'>
+        <FlexBox style={{ marginTop: 40 }} flexDir='row' flexWrap='wrap' justify='center' alignItems='center'>
           {skills.map((value, index) => {
             return (
               <Card

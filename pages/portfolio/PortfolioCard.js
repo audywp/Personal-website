@@ -16,7 +16,7 @@ export default function PortfolioCard() {
     getCurrentWidth();
   }, [getCurrentWidth]);
   return (
-    <Container p='0 60px'>
+    <Container p={isMobile ? '0 24px' : '0 60px'}>
       <Title level={2} style={{ color: COLOR.text, textAlign: 'center' }}>
         Portfolio
       </Title>

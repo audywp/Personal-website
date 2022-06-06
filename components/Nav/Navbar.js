@@ -56,6 +56,7 @@ export default function Navbar({}) {
       <Layout>
         <div
           style={{
+            padding: '0 24px',
             height: 64,
             zIndex: 10,
             background: bgColor,
