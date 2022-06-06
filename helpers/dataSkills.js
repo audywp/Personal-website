@@ -1,0 +1,86 @@
+export const skills = [
+  {
+    idx: 3,
+    title: 'Javascript',
+    src: 'https://www.freepnglogos.com/uploads/javascript-png/js-logo-png-5.png',
+    isHover: false,
+  },
+  {
+    idx: 0,
+    title: 'NextJS',
+    src: 'https://cdn.auth0.com/blog/next3/logo.png',
+    isHover: false,
+  },
+  {
+    idx: 4,
+    title: 'ReactJS & React Native',
+    isHover: false,
+    src: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K',
+  },
+  {
+    idx: 5,
+    title: 'Redux',
+    isHover: false,
+    src: 'https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg',
+  },
+  {
+    idx: 1,
+    title: 'HTML',
+    isHover: false,
+    src: 'https://cdn-icons-png.flaticon.com/512/732/732212.png',
+  },
+  {
+    idx: 2,
+    title: 'CSS',
+    isHover: false,
+    src: 'https://cdn-icons-png.flaticon.com/512/732/732190.png',
+  },
+  {
+    idx: 6,
+    title: 'Firebase',
+    isHover: false,
+    src: 'https://firebase.google.com/downloads/brand-guidelines/PNG/logo-vertical.png',
+  },
+  {
+    idx: 7,
+    title: 'GraphQL',
+    isHover: false,
+    src: 'https://cdn.freebiesupply.com/logos/large/2x/graphql-logo-png-transparent.png',
+  },
+  {
+    idx: 8,
+    title: 'Sass',
+    isHover: false,
+    src: 'https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg',
+  },
+  {
+    idx: 9,
+    title: 'Node JS',
+    isHover: false,
+    src: 'https://nodejs.org/static/images/logo.svg',
+  },
+  {
+    idx: 10,
+    title: 'Amazon Web Services',
+    isHover: false,
+    src: 'https://a0.awsstatic.com/libra-css/images/logos/aws_smile-header-desktop-en-white_59x35@2x.png',
+  },
+  {
+    idx: 11,
+    title: 'Google Cloud Platform',
+    isHover: false,
+    src: 'https://www.gstatic.com/pantheon/images/welcome/supercloud.svg',
+  },
+  {
+    idx: 12,
+    title: 'Webpack',
+    isHover: false,
+    src: 'https://webpack.js.org/site-logo.1fcab817090e78435061.svg',
+  },
+  {
+    idx: 13,
+    title: 'MySQL',
+    isHover: false,
+    src: 'https://www.mysql.com/common/logos/logo-mysql-170x115.png',
+  },
+];
