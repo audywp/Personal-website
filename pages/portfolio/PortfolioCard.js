@@ -31,10 +31,10 @@ export default function PortfolioCard() {
           >
             <FlexBox p='20px' justify='center' alignItems='center'>
               <Typography>
-                <Title level={3} style={{ color: COLOR.text }}>
+                <Title level={2} style={{ color: COLOR.text }}>
                   {value.title}
                 </Title>
-                <Paragraph>{value.description}</Paragraph>
+                <Paragraph style={{ fontSize: isMobile ? '16px' : '24px' }}>{value.description}</Paragraph>
               </Typography>
             </FlexBox>
 

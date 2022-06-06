@@ -54,12 +54,14 @@ export default function Navbar({}) {
   return (
     <>
       <Layout>
-        <Header
+        <div
           style={{
+            height: 64,
             zIndex: 10,
             background: bgColor,
             display: 'flex',
             flexDirection: 'row',
+            top: 0,
             position: 'fixed',
             width: '100vw',
             border: 'none',
@@ -103,7 +105,7 @@ export default function Navbar({}) {
           >
             <Button onClick={downloadCV} title={'Download CV'} />
           </div>
-        </Header>
+        </div>
       </Layout>
       <Drawer
         drawerStyle={{ backgroundColor: COLOR.darkCyan }}
