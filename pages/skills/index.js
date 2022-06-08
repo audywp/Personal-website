@@ -1,4 +1,4 @@
-import { Avatar, Card, Typography } from 'antd';
+import { Card, Typography } from 'antd';
 import Head from 'next/head';
 import { useState, useEffect } from 'react';
 import { COLOR } from '../../helpers/color';
