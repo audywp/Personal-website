@@ -3,7 +3,7 @@ import Navbar from '../components/Nav/Navbar';
 import Socmed from '../components/Socmed';
 import '../styles/globals.css';
 
-function MyApp({ Component, pageProps }) {
+function App({ Component, pageProps }) {
   return (
     <>
       <Navbar />
@@ -13,5 +13,5 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default MyApp;
+export default App;
 

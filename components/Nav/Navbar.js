@@ -1,15 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { Card, Layout, Typography } from 'antd';
+import { Layout, Drawer } from 'antd';
 import Button from '../Button/Button';
 import { FlexBox } from '../../styles/components/Box';
 import { COLOR } from '../../helpers/color';
 import { Text } from '../../styles/components/Text/TextWrapper';
 import { CloseOutlined, MenuOutlined } from '@ant-design/icons';
 import { UseIsMobile } from '../../helpers/isMobileSize';
-import { Drawer, Space } from 'antd';
-
-const { Header } = Layout;
 
 export default function Navbar() {
   const [bgColor, setBgColor] = useState('none');
@@ -128,9 +125,6 @@ export default function Navbar() {
           <Link href='/portfolio'>
             <Text.a onClick={() => setVisible(false)}>Portfolio</Text.a>
           </Link>
-          {/* <Link href='/'>
-            <Text.a>Contact Me</Text.a>
-          </Link> */}
         </FlexBox>
       </Drawer>
     </>

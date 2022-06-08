@@ -32,7 +32,7 @@ module.exports = {
     lessVarsFilePath: './src/styles/variables.less',
     lessVarsFilePathAppendToEndOfContent: false,
     cssLoaderOptions: {},
-    webpack: (config, options) => {
+    webpack: (config) => {
       config.module.rules.push({
         test: /\.pdf$/,
         use: [
