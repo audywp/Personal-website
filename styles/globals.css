@@ -7,7 +7,7 @@
 
 html,
 body {
-  font-family: Poppins !important;
+  font-family: Poppins, sans-serif !important;
   background: url('/background.jpg') no-repeat fixed center;
   background-size: cover;
 }
