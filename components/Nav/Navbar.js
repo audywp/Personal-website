@@ -11,7 +11,7 @@ import { Drawer, Space } from 'antd';
 
 const { Header } = Layout;
 
-export default function Navbar({}) {
+export default function Navbar() {
   const [bgColor, setBgColor] = useState('none');
   const [visible, setVisible] = useState(false);
   const [isMobile, getCurrentWidth] = UseIsMobile();
