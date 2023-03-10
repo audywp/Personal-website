@@ -41,7 +41,7 @@ export default function Navbar() {
     } else {
       let a = document.createElement('a');
       a.setAttribute('download', 'AudyWisudaPratama(CV).pdf');
-      a.setAttribute('href', 'https://drive.google.com/uc?export=download&id=1w26BTUU5mq6w-AYw5zk19hgIut76yr42');
+      a.setAttribute('href', 'https://drive.google.com/uc?export=download&id=19y15j-scuVyZsjezyrDBF2p6Hqu1vGxb');
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
